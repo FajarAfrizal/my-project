@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Alumni extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'user_id',
+        'nama',
+        'jurusan',
+        'angkatan',
+        'status_bekerja',
+        'bekerja',
+        'twitter',
+        'instagram',
+        'facebook',
+        'linkedlin',
+        'image',
+    ];
+}
